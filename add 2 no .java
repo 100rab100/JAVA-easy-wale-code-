@@ -4,7 +4,7 @@ public class Main{
 
 
     public static void main(String[] args) {
-       int a,b;
+       int a,b;  //float 
        Scanner t=new Scanner(System.in);
         System.out.println("enter a");
        a=t.nextInt();
@@ -13,7 +13,7 @@ public class Main{
         b=t.nextInt();
 
 
-       int sum=a+b;
+       int sum=a+b;  //float
        System.out.println(sum);
 
     }
