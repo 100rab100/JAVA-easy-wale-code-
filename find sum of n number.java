@@ -17,3 +17,22 @@
         
         
     }
+//
+import java.util.*;
+
+public class Main{
+
+
+
+    public static void main(String[] args) {
+        int sum=0;
+        Scanner t=new Scanner(System.in);
+        System.out.println ("Enter a  number ");
+        int num=t.nextInt();
+
+            sum=num*(num+1)/2;
+
+
+        //String string_num=String.valueOf(num);
+        System.out.println(sum);
+        }
