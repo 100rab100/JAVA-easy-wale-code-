@@ -54,6 +54,26 @@ public class Main{
     }
 }
 
+//
+import java.util.*;
+
+public class Main{
+
+
+
+    public static void main(String[] args) {
+
+        Scanner t=new Scanner(System.in);
+        System.out.println ("Enter a  number ");
+        int num=t.nextInt();
+        String str;
+        str = (num > 0.0) ? "positive" : "negative or zero";
+        System.out.println("The number " + num + " is " + str);
+
+    }
+}
+
+
 
 
 
