@@ -30,3 +30,27 @@ public class Main{
 
     
 }
+//not for negative numbers 
+import java.util.*;
+
+public class Main{
+
+
+
+    public static void main(String[] args) {
+        int count=0;
+        Scanner t=new Scanner(System.in);
+        System.out.println ("Enter a  number ");
+        int num=t.nextInt();
+        int sum;
+        sum = (int)(Math.floor(Math.log10(num) + 1));
+        System.out.println ("count"+sum);
+
+    }
+
+
+
+}
+
+
+
