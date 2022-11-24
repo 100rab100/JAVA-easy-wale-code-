@@ -1,14 +1,20 @@
 import java.util.*;
 
-class First {
+public class Main{
+
 
     public static void main(String[] args) {
-        Scanner t=new Scanner(System.in);
-        int b=t.nextInt();
-        int c=t.nextInt();
-        int z=c+b;
-        System.out.println(z);
+       int a,b;
+       Scanner t=new Scanner(System.in);
+        System.out.println("enter a");
+       a=t.nextInt();
+        System.out.println("enter b");
+
+        b=t.nextInt();
+
+
+       int sum=a+b;
+       System.out.println(sum);
 
     }
-
-}
+        }
