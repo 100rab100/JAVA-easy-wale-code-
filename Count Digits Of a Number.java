@@ -51,6 +51,27 @@ public class Main{
 
 
 }
+//
+import java.util.*;
+
+public class Main{
+
+
+
+    public static void main(String[] args) {
+        int count=0;
+        Scanner t=new Scanner(System.in);
+        System.out.println ("Enter a  number ");
+        int num=t.nextInt();
+        String string_num=String.valueOf(num);
+        System.out.println(string_num.length());
+        }
+
+
+
+}
+
+
 
 
 
