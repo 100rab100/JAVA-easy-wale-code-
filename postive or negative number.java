@@ -1,14 +1,14 @@
-import java.lang.*;
 import java.util.*;
 
+public class Main{
 
-//Brute force
-public class first
-{
-    public static void main (String[]args)
-    {
 
-        int num = 5;
+    public static void main(String[] args) {
+        int num;
+        Scanner t=new Scanner(System.in);
+        System.out.println ("Enter a  number ");
+        num=t.nextInt();
+
 
         //Conditions to check if the number is negative or positive
         if (num > 0)
@@ -19,3 +19,6 @@ public class first
             System.out.println ("Zero");
     }
 }
+
+
+
